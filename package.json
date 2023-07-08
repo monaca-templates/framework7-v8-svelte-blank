@@ -5,6 +5,10 @@
   "description": "framework7-v8-svelte-blank",
   "repository": "",
   "license": "UNLICENSED",
+  "engines": {
+      "node": "~18.16.0",
+      "npm": "~9.5.0"
+  },
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development vite",
