@@ -19,7 +19,7 @@ export default async () => {
     publicDir: PUBLIC_DIR,
     build: {
       outDir: BUILD_DIR,
-      target: ['es2018'], // support older browsers
+      target: ['es2017'], // support older browsers
       assetsInlineLimit: 0,
       emptyOutDir: false,
       rollupOptions: {
