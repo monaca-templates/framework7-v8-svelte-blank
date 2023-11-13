@@ -19,7 +19,7 @@ export default async () => {
     publicDir: PUBLIC_DIR,
     build: {
       outDir: BUILD_DIR,
-      target: ['es2017'], // support older browsers
+      target: ['es2017'], // support Moncaca Localkit (older browsers)
       assetsInlineLimit: 0,
       emptyOutDir: false,
       rollupOptions: {
@@ -29,6 +29,7 @@ export default async () => {
           assetFileNames: `assets/[name].[ext]`
         }
       },
+      cssMinify: false, // support Moncaca Localkit (older browsers)
     },
     resolve: {
       alias: {
