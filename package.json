@@ -1,12 +1,12 @@
 {
   "name": "framework7-v8-svelte-blank",
   "private": true,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "framework7-v8-svelte-blank",
   "repository": "",
   "license": "UNLICENSED",
   "engines": {
-    "node": "~18.16.0",
+    "node": ">=20.17",
     "npm": "~9.5.0"
   },
   "scripts": {
@@ -38,6 +38,7 @@
     "cross-env": "^7.0.3",
     "postcss-preset-env": "^8.4.2",
     "rollup-plugin-framework7": "^1.2.1",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "cordova": "^13.0.0"
   }
 }
